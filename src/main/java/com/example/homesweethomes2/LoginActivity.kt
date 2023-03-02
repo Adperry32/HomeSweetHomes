@@ -27,7 +27,6 @@ class LoginActivity : AppCompatActivity(), FragmentNavigator {
         users = findViewById(R.id.userLog)
         pass = findViewById(R.id.userPass)
 
-
         //transition to main frag for guest
         val guest = findViewById<Button>(R.id.guestBTN)
         guest.setOnClickListener {
