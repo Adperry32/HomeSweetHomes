@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment"
+    android:background="@drawable/regscreen">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:drawablePadding="3dp"
+        android:hint="First name"
+        android:textSize="13sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black_light"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:drawablePadding="3dp"
+        android:hint="Last name"
+        android:textSize="13sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black_light"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <EditText
+        android:id="@+id/DOB"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:drawablePadding="3dp"
+        android:hint="Age"
+        android:textSize="13sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black_light"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:drawablePadding="3dp"
+        android:hint="Email"
+        android:textSize="13sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black_light"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:drawablePadding="3dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black_light"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <EditText
+        android:id="@+id/confirmPass"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:drawablePadding="3dp"
+        android:hint="Confirm Password"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black_light"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <EditText
+        android:id="@+id/kids"
+        android:layout_width="289dp"
+        android:layout_height="51dp"
+        android:drawablePadding="3dp"
+        android:hint="How Many Children (Optional)   0"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black_light"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <Button
+        android:id="@+id/regSubmitBTN"
+
+        android:layout_width="143dp"
+        android:layout_height="32dp"
+        android:background="@drawable/next_btn"
+        android:text="Submit"
+        android:textColorHint="#FD7F01"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <Button
+        android:id="@+id/cancelBTN"
+
+        android:layout_width="143dp"
+        android:layout_height="32dp"
+        android:background="@drawable/cancel_btn"
+        android:text="Cancel"
+        android:textColorHint="#FD7F01"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
