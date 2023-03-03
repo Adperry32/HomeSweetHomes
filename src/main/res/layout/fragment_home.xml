@@ -8,14 +8,12 @@
     android:id="@+id/homeFragment"
     android:background="@color/background_blue">
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="45dp"
         android:layout_height="13dp"
-        android:background="@color/white"
         android:hint="  SIGN UP"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/white"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
