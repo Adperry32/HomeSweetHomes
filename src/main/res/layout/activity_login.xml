@@ -28,7 +28,7 @@
             android:drawablePadding="3dp"
             android:hint="Username"
             android:padding="8sp"
-            android:layout_marginTop="360dp"
+            android:layout_marginTop="335dp"
             android:layout_marginLeft="50dp"
             android:textColor="@color/white"
             android:textColorHint="@color/black"
@@ -39,7 +39,7 @@
             android:id="@+id/userPass"
             android:layout_width="289dp"
             android:layout_height="51dp"
-            android:layout_marginTop="415dp"
+            android:layout_marginTop="396dp"
             android:layout_marginLeft="50dp"
             android:drawableLeft="@drawable/ic_baseline_verified_24"
             android:drawablePadding="3dp"
@@ -57,7 +57,7 @@
             android:hint="Forgot Password"
             android:textColorHint="@color/black"
             android:textSize="11dp"
-            android:layout_marginTop="480dp"
+            android:layout_marginTop="450dp"
             android:layout_marginLeft="75dp"
            />
 
@@ -67,7 +67,7 @@
             android:layout_width="190dp"
             android:layout_height="25dp"
             android:layout_marginLeft="108dp"
-            android:layout_marginTop="570dp"
+            android:layout_marginTop="537dp"
             android:background="@drawable/cancel_btn"
             android:text=" Continue as Guest"
             android:textColor="@color/white"
@@ -76,13 +76,13 @@
         <Button
             android:id="@+id/loginBTN"
             android:layout_width="133dp"
-            android:layout_height="27dp"
+            android:layout_height="24dp"
             android:layout_marginLeft="135dp"
-            android:layout_marginTop="530dp"
+            android:layout_marginTop="500dp"
             android:background="@drawable/next_btn"
             android:text="Log In"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/textView"
@@ -100,7 +100,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_marginLeft="55dp"
-            android:layout_marginTop="475dp"
+            android:layout_marginTop="447dp"
             android:background="@drawable/ic_baseline_question_mark_24">
         </ImageButton>
 

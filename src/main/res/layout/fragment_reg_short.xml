@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegShortFragment"
+    android:id="@+id/quickReg">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/quickreg">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3.5dp"
+            android:background="@color/background_blue"
+            android:layout_marginTop="125dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3.5dp"
+            android:background="@color/background_blue"
+            android:layout_marginTop="345dp"
+            />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="85dp"
+            android:text="HOME SWEET HOME"
+            android:textColor="@color/background_blue"
+            android:textSize="33sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/firstName2"
+            android:layout_width="289dp"
+            android:layout_height="35dp"
+            android:drawablePadding="3dp"
+            android:text="First name"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="60dp"
+             />
+        <EditText
+            android:id="@+id/lastName2"
+            android:layout_width="289dp"
+            android:layout_height="35dp"
+            android:drawablePadding="3dp"
+            android:text="Last name"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="60dp"
+            />
+        <EditText
+            android:id="@+id/email2"
+            android:layout_width="289dp"
+            android:layout_height="35dp"
+            android:drawablePadding="3dp"
+            android:text="Email"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="60dp"
+            />
+        <EditText
+            android:id="@+id/pass2"
+            android:layout_width="289dp"
+            android:layout_height="35dp"
+            android:drawablePadding="3dp"
+            android:text="Enter Password"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="60dp"
+            />
+        <EditText
+            android:id="@+id/conPass"
+            android:layout_width="289dp"
+            android:layout_height="35dp"
+            android:drawablePadding="3dp"
+            android:text="Confirm Password"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="60dp"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/qr_cancel"
+            android:text="Back"
+            android:background="@drawable/cancel_btn"
+            android:layout_marginTop="355dp"
+            android:layout_marginLeft="60dp"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:id="@+id/qr_Submit"
+            android:text="Submit"
+            android:background="@drawable/qr"
+            android:layout_marginTop="355dp"
+            android:layout_marginLeft="215dp"
+            />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
