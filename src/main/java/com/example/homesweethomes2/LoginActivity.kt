@@ -30,7 +30,8 @@ class LoginActivity : AppCompatActivity(), FragmentNavigator {
         //transition to main frag for guest
         val guest = findViewById<Button>(R.id.guestBTN)
         guest.setOnClickListener {
-            Navigator(HomeFragment(), false)
+           val intent = Intent(this, HomeActivity::class.java )
+            startActivity(intent)
         }
 
         //transition to register sign up form
@@ -102,7 +103,8 @@ class LoginActivity : AppCompatActivity(), FragmentNavigator {
                                 {
                                     Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
 
-                                    Navigator(HomeFragment(), false)
+                                    val intent = Intent(this, HomeActivity::class.java)
+                                    startActivity(intent)
                                 }
                                 else
                                 {

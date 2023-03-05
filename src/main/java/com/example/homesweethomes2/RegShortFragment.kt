@@ -44,7 +44,8 @@ class RegShortFragment : Fragment(), FragmentNavigator {
             registerUser()
         }
         view.findViewById<Button>(R.id.qr_cancel).setOnClickListener {
-            Navigator(HomeFragment(), false)
+           val intent = Intent(context,HomeActivity::class.java)
+            startActivity(intent)
         }
 
         return view
@@ -52,7 +53,7 @@ class RegShortFragment : Fragment(), FragmentNavigator {
 
     override fun Navigator(fragment: Fragment, addToStack: Boolean) {
         val transaction = fragmentManager?.beginTransaction()
-        transaction?.replace(R.id.homeFragment, fragment)
+        transaction?.replace(R.id.main, fragment)
         if(addToStack)
         {
             transaction!!.addToBackStack(null)
@@ -121,7 +122,8 @@ class RegShortFragment : Fragment(), FragmentNavigator {
                                                 if(it.isSuccessful)
                                                 {
                                                     Toast.makeText(context, "Successful", Toast.LENGTH_SHORT).show()
-                                                    Navigator(HomeFragment(), false)
+                                                    val intent = Intent(context,HomeActivity::class.java)
+                                                    startActivity(intent)
                                                 }
                                                 else
                                                 {

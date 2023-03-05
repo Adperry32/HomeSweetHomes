@@ -95,7 +95,7 @@ class AdminLoginActivity : AppCompatActivity(), FragmentNavigator {
                                     readData()
 
                                         Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
-                                        Navigator(HomeFragment(), false)
+                                        Navigator(AdminHomeFragment(), false)
 
                                     /*else
                                     {
