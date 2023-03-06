@@ -20,6 +20,7 @@
 
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilePic"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@drawable/ic_baseline_person_add_24"
@@ -44,7 +45,7 @@
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="0.018" />
 
-    <TextView
+    <EditText
         android:id="@+id/acct_Fname"
         android:layout_width="149dp"
         android:layout_height="19dp"
@@ -70,7 +71,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.04" />
 
-    <TextView
+    <EditText
         android:id="@+id/acct_Lname"
         android:layout_width="149dp"
         android:layout_height="19dp"
@@ -96,7 +97,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.061" />
 
-    <TextView
+    <EditText
         android:id="@+id/acct_Email"
         android:layout_width="149dp"
         android:layout_height="19dp"
@@ -122,7 +123,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.018" />
 
-    <TextView
+    <EditText
         android:id="@+id/acct_Age"
         android:layout_width="47dp"
         android:layout_height="22dp"
@@ -135,7 +136,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.017" />
 
-    <TextView
+    <EditText
         android:id="@+id/acct_kid"
         android:layout_width="58dp"
         android:layout_height="22dp"
@@ -161,7 +162,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.043" />
 
-    <TextView
+    <EditText
         android:id="@+id/acct_Pass"
         android:layout_width="149dp"
         android:layout_height="19dp"
@@ -209,7 +210,7 @@
         android:layout_marginStart="61dp"
         android:layout_marginTop="638dp"
         android:layout_marginEnd="231dp"
-        android:text="Cancel"
+        android:text="back"
         android:background="@drawable/account_btn"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"

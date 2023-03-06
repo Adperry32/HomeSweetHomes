@@ -13,14 +13,14 @@ class HomeActivity : AppCompatActivity(), FragmentNavigator {
         setContentView(R.layout.activity_home)
 
         //Switch to Quick reg
-        findViewById<ImageButton>(R.id.regBTN).setOnClickListener {
-            Navigator(RegShortFragment(), false)
-        }
+        //findViewById<ImageButton>(R.id.regBTN).setOnClickListener {
+            //Navigator(RegShortFragment(), false)
+       // }
 
         //switch to Account profile
-        findViewById<Button>(R.id.accBTN).setOnClickListener {
-            Navigator(AccountFragment(), false)
-        }
+        //findViewById<Button>(R.id.accBTN).setOnClickListener {
+           // Navigator(AccountFragment(), false)
+       // }
 
     }
 

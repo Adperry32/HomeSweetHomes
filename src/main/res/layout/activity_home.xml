@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -8,48 +9,44 @@
     android:background="@color/background_blue"
     tools:context=".HomeActivity">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="45dp"
-            android:layout_height="13dp"
-            android:layout_marginLeft="350dp"
-            android:text="  SIGN UP"
-            android:textColor="@color/white"
-            android:textSize="10sp"
-            android:textStyle="italic"></TextView>
-    </LinearLayout>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout" >
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/regBTN"
-            android:layout_width="30dp"
-            android:layout_height="25dp"
-            android:background="@drawable/ic_baseline_app_registration_24"
-            android:layout_marginLeft="360dp"
-            android:layout_marginTop="10dp"
-         >
-        </ImageButton>
+            android:id="@+id/navBTN"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:background="@color/background_blue"
+            android:src="@drawable/ic_baseline_density_medium_24"
+            android:layout_marginTop="10dp"/>
 
-        <Button
-        android:id="@+id/accBTN"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:text="acct"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="81dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/accountSettingBTN"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:background="@color/background_blue"
+            android:src="@drawable/ic_baseline_spoke_24"
+            android:layout_marginLeft="372dp"
+            android:layout_marginTop="10dp"
+            />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu"
+        android:fitsSystemWindows="true"
+
+        />
+</androidx.drawerlayout.widget.DrawerLayout>

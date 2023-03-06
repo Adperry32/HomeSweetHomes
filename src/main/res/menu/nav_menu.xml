@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+    <item
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        android:id="@+id/home"
+        />
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        />
+    <item
+        android:id="@+id/views"
+        android:title="Recently Viewed"
+        android:icon="@drawable/ic_baseline_preview_24"
+        />
+    <item
+        android:id="@+id/favorites"
+        android:title="Favorites"
+        android:icon="@drawable/ic_baseline_star_24"
+        />
+
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+            android:id="@+id/message"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Message"
+            />
+            <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_baseline_share_24"
+        />
+            <item
+            android:id="@+id/rate"
+            android:title="Rate Us"
+            android:icon="@drawable/ic_baseline_rate_review_24" />
+
+
+        </menu>
+</item>
+
+</menu>
