@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.HomesweetHomes2" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.HomesweetHomes2" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#B06200EE</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
